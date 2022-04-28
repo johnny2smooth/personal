@@ -2,16 +2,15 @@
 <header role="banner" class="site-head">
   <div class="wrapper">
     <div>
-      <a href="/" aria-label="Website name - home">Logo!</a>
+      <a href="/" aria-label="{{ site.name }} - home">{{ site.name }}</a>
     </div>
     <nav aria-label="Primary">
       <ul>
+        {% for item in navigation.items %}
         <li>
-          <a href="/">home</a>
+          <a href="{{ item.url }}">{{ item.text }}</a>
         </li>
-        <li>
-          <a href="work">work</a>
-        </li>
+        {% endfor %}
       </ul>
     </nav>
   </div>
