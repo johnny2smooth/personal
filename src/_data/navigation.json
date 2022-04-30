@@ -1,24 +1,16 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/"
+      "text": "projects",
+      "url": "/projects"
     },
     {
-      "text": "About",
-      "url": "/about-us/"
+      "text": "resumé",
+      "url": "/resume/"
     },
     {
-      "text": "Work",
-      "url": "/work/"
-    },
-    {
-      "text": "Blog",
-      "url": "/blog/"
-    },
-    {
-      "text": "Contact",
-      "url": "/contact/"
+      "text": "about",
+      "url": "/about/"
     }
   ]
 }
