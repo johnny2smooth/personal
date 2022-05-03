@@ -1,5 +1,8 @@
+const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
+
 module.exports = (config) => {
   config.addPassthroughCopy('css');
+  config.addPassthroughCopy('./src/images/');
 
   return {
     passthroughFileCopy: true,

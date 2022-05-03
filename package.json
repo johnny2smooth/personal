@@ -19,5 +19,8 @@
   "homepage": "https://github.com/johnny2smooth/personal#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^3.0.0"
   }
 }
