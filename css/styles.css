@@ -10,7 +10,7 @@
   color: var(--white);
 }
 
-body{
+body {
   background-color: var(--blue);
 }
 
@@ -46,7 +46,7 @@ ul {
 }
 
 .logo{
-  font-size: 5em;
+  font-size: 6vh;
   font-weight: bold;
   letter-spacing: -.05em;
   text-decoration: none;
@@ -60,9 +60,9 @@ ul {
 }
 
 .nav-items {
-  font-size: 2em;
+  font-size: 3vh;
   justify-content: flex-end;
-  margin: 0.2em 3rem;
+  margin: 0.2em .5rem;
 }
 
 /* reason */
@@ -74,7 +74,11 @@ ul {
 
 .reason-explanation {
   max-width: 60ch;
-  margin: 0 2rem;
+  margin: 0 1vw;
+}
+
+.space{
+  margin-bottom: 1rem;
 }
 
 /*  */
@@ -88,7 +92,7 @@ ul {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #01035290;
+    background-color: #010352db;
 }
 
 /* type */
@@ -109,10 +113,10 @@ main{
   font-family: 'Orelega One', cursive;
 }
 
-.large {
+.footer-font {
   margin: 0;
   padding: 0;
-  font-size: var(--large);
+  font-size: 4vh;
 }
 
 .thin-title{
@@ -135,7 +139,7 @@ main{
 .with-sidebar {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--s1);
+  gap: 1rem;
 }
 
 .with-sidebar > :first-child {

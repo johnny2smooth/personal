@@ -3,7 +3,20 @@
     {
       "id": 1,
       "title": "I am 100(ish)% qualified for this role",
-      "explanation": "an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation an explanation"
+      "explanation": "Okay, maybe saying that I am almost 100% ready is a little ambitious. But hey, exaggerating our capabilites is America's 3rd favorite passtime, so I get a pass. I've been fucking grinding. Even though I don't think I am ready, I am. One of my most salient personality traits is resolve. I work hard on problems, even when they're tough. This is my third attempt at teaching myself how to code since 2019 and I have finally made it through the valley of despair. Seriously, I am ready.",
+      "href": "/"
+    },
+    {
+      "id": 2,
+      "title": "I am a well rounded person",
+      "explanation": "Tooting my own horn is something I usually do in private. But boy, I am a blast to work with. I know when to put my head down, when to make the room smile, and most importantly when to shut tf up. I do not come froma technicaly background in education nor in my career so far. In fact, my background has consisted of talking to people. I am really good at it. That's why they call me Johnny2Smooth.",
+      "href": "/"
+    },
+    {
+      "id": 3,
+      "title": "I have something to prove. ",
+      "explanation": "A hungry dog bites harder, and dog, I am HUNGRY. I live with my parents. I love them with all my heart, but it is time for me to start making some paper and let my wings take me with the breeze.",
+      "href": "/"
     }
   ]
 }

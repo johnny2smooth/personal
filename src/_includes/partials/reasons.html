@@ -1,7 +1,7 @@
 <div style="padding: 10px;">
   <h1 class="thin-title">A COUPLE OF REASONS WHY YOU SHOULD HIRE ME</h1>
   {% for item in reasons.items %}
-  <div class="with-sidebar">
+  <div class="with-sidebar space">
     <div class="with-sidebar reason">
       <h2 class="big-blue-title">{{ item.title | upper }}</h2>
       <h3 class="big-red-title">#{{ item.id }}</h3>
@@ -10,6 +10,9 @@
       <p>
         {{ item.explanation }}
       </p>
+      <div style="text-align: end;">
+        <a href="{{item.href}}" >Some link</a>
+      </div>
       <hr>
     </div>
   </div>
