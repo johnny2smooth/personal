@@ -157,5 +157,5 @@ main{
 }
 
 .permalink:hover{
-  text-decoration: underline;
+  text-decoration: underline var(--red);
 }
