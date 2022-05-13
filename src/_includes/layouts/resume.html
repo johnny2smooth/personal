@@ -1,4 +1,88 @@
-{% extends "layouts/base.html" %}
-{% block content %}
-  <h1>I'm a G and it's proven!</h1>
+{% extends "layouts/base.html" %} {% block content %}
+<article id="resume" class="with-sidebar">
+  <div id="main-resume-content">
+    <section>
+      <h2 id="summary">
+        <a href="#summary" title="Permalink to Summary" class="permalink"
+          >Summary</a
+        >
+      </h2>
+      <p>Something special about me!</p>
+    </section>
+
+    <section>
+      <h2 id="work-experience">
+        <a
+          href="#work-experience"
+          title="Permalink to Work Experience"
+          class="permalink"
+        >
+          Work Experience</a
+        >
+      </h2>
+      <h3>Software engineer at University of Washington, Seattle, Wa</h3>
+      <p>dates</p>
+      <ul>
+        <li>Some information</li>
+        <li>Some information</li>
+        <li>Some information</li>
+      </ul>
+      <h4 id="recent-projects">
+        <a
+          href="#recent-projects"
+          title="Permalink for Recent Projects"
+          class="permalink"
+          >Recent projects:</a
+        >
+      </h4>
+      <p>TB mobile app, baby</p>
+    </section>
+  </div>
+
+  <div id="personal-details">
+    <div>
+      <h2 id="social-links">
+        <a href="#social-links" title="Permalink to Socials" class="permalink"
+          >Socials</a
+        >
+      </h2>
+      <p>
+        <a href="https://twitter.com/johnny2smooz"
+          >*twitter icon* @johnny2smooz</a
+        >
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/john-b-peterson/"
+          >linkedin.com/in/john-b-peterson</a
+        >
+      </p>
+      <p>
+        <a href="https://github.com/johnny2smooth">github.com/johnny2smooth</a>
+      </p>
+    </div>
+
+    <div>
+      <h2 id="skills">
+        <a href="#skills" title="Permalink to Skills" class="permalink"
+          >Skills</a
+        >
+      </h2>
+      <ul>
+        <li>html...</li>
+        <li>CSS...</li>
+      </ul>
+    </div>
+    <div>
+      <h2 id="education">
+        <a href="#education" title="Permalink to Education" class="permalink">
+          Education</a
+        >
+      </h2>
+      <h3>University of Washington</h3>
+      <p>2017-2020</p>
+      <p>Major: Comparative History of Ideas</p>
+    </div>
+  </div>
+</article>
+
 {% endblock%}

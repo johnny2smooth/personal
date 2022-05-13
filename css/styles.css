@@ -29,7 +29,7 @@ nav{
   flex-direction: row;
 }
 
-ul {
+nav > ul {
   list-style: none;
 }
 
@@ -150,4 +150,12 @@ main{
 
 .with-sidebar > :last-child {
   flex-grow: 1;
+}
+
+.permalink {
+  text-decoration: none;
+}
+
+.permalink:hover{
+  text-decoration: underline;
 }
