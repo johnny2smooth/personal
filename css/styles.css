@@ -136,6 +136,10 @@ main{
   margin: inherit;
 }
 
+.big-title {
+  font-size: 3rem;
+}
+
 .with-sidebar {
   display: flex;
   flex-wrap: wrap;
@@ -156,6 +160,8 @@ main{
   text-decoration: none;
 }
 
-.permalink:hover{
+.permalink:hover,
+.permalink:focus{
   text-decoration: underline var(--red);
 }
+
