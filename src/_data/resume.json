@@ -1,0 +1,104 @@
+{
+  "summary": [
+    {
+      "id": "resume-summary",
+      "title": "summary",
+      "paragraph": "an explanation an explanation an an explanation an explanation an an explanation an explanation an an explanation an explanation an an explanation an explanation an an explanation an explanation an an explanation an explanation an an explanation an explanation an an explanation an explanation an   "
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "work-experience",
+      "title": "work experience",
+      "jobs": [{}],
+      "recentProjects": [{}]
+    }
+  ],
+  "socialLinks": [
+    {
+      "id": "github",
+      "title": "github.com/johnny2smooth",
+      "icon": "icon",
+      "href": "https://github.com/johnny2smooth"
+    },
+    {
+      "id": "linkedin",
+      "title": "linkedin.com/in/john-b-peterson",
+      "icon": "icon",
+      "href": "https://www.linkedin.com/in/john-b-peterson/"
+    },
+    {
+      "id": "twitter",
+      "title": "@johnny2smooz",
+      "icon": "icon",
+      "href": "https://www.linkedin.com/in/john-b-peterson/"
+    }
+  ],
+  "skills": [
+    {
+      "id": "nodeJS",
+      "title": "node js",
+      "href": "/"
+    },
+    {
+      "id": "react",
+      "title": "react",
+      "href": "/"
+    },
+    {
+      "id": "js",
+      "title": "js",
+      "href": "/"
+    },
+    {
+      "id": "html",
+      "title": "html",
+      "href": "/"
+    },
+    {
+      "id": "css",
+      "title": "css",
+      "href": "/"
+    },
+    {
+      "id": "eleventy",
+      "title": "eleventy",
+      "href": "/"
+    },
+    {
+      "id": "mui",
+      "title": "mui",
+      "href": "/"
+    },
+    {
+      "id": "git",
+      "title": "git",
+      "href": "/"
+    },
+    {
+      "id": "other",
+      "title": "other",
+      "href": "/"
+    }
+  ],
+  "education": [
+    {
+      "id": "education",
+      "title": "education",
+      "scools": [
+        {
+          "id": "uw",
+          "title": "University of Washington",
+          "dates": "2017-2020",
+          "studies": ["Comparative History of Ideas", "Entrepreneurship"]
+        },
+        {
+          "id": "seattle-central",
+          "title": "Seattle Central College",
+          "dates": "2014-2017",
+          "studies": ["AA"]
+        }
+      ]
+    }
+  ]
+}
